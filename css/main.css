@@ -1,145 +1,135 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: 0.3s;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 16px;
 }
 
-body,
-html {
-    scroll-behavior: smooth;
-    background-color: #fbf7da;
-    font-family: "Geometria";
+body, html {
+  scroll-behavior: smooth;
+  background-color: #fbf7da;
+  font-family: "Geometria";
 }
 
 .container {
-    max-width: 1450px;
-    width: 100%;
-    padding: 0px 10px;
-    margin: 0px auto;
+  max-width: 1450px;
+  width: 100%;
+  padding: 0px 10px;
+  margin: 0px auto;
 }
 
 h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 h4 {
-    font-size: 34px;
+  font-size: 34px;
 }
 
 .pre__navbar {
-    background-color: #fede31;
-    padding: 24px 0px;
-    border: 2px solid #ffe53b;
+  background-color: #fede31;
+  padding: 24px 0px;
+  border: 2px solid #ffe53b;
 }
 
 .navbar {
-    background-color: #fede31;
-    padding: 24px 0px;
-    border: 2px solid #ffe53b;
+  background-color: #fede31;
+  padding: 24px 0px;
+  border: 2px solid #ffe53b;
 }
 
 .ad {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-
 .ad .ad__content .ad__intro {
-    color: #473d00;
+  color: #473d00;
 }
-
 .ad .ad__content .ad__intro h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
-
 .ad .ad__content .ad__intro p {
-    margin-top: 0px;
+  margin-top: 0px;
 }
-
 .ad .ad__content .ad__intro p a {
-    text-decoration: none;
-    color: #473d00;
+  text-decoration: none;
+  color: #473d00;
 }
-
 .ad .ad__content .ad__tabs {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    color: #473d00;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #473d00;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-select {
-    padding: 20px 0px;
-    max-width: 30%;
-    background-color: #fff;
+  padding: 20px 0px;
+  max-width: 30%;
+  background-color: #fff;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-select p {
-    font-size: 19px;
+  font-size: 19px;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-select .select__btn {
-    cursor: pointer;
-    width: 100%;
-    padding: 0px 30px;
-    z-index: 10000;
-    margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+  padding: 0px 30px;
+  z-index: 10000;
+  margin-top: 20px;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-select .select__btn:hover {
-    background-color: #fede31;
+  background-color: #fede31;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-select .select__btn h3 {
-    font-size: 23px;
-    margin: 7px 0px;
+  font-size: 23px;
+  margin: 7px 0px;
 }
-
 .ad .ad__content .ad__tabs .tab__intro {
-    font-size: 24px;
-    margin-top: 20px;
-    padding: 0px 30px;
+  font-size: 24px;
+  margin-top: 20px;
+  padding: 0px 30px;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-jobs {
-    background-color: #fff;
-    padding: 20px 0px;
-    max-width: 67%;
-    width: 100%;
-    display: none;
+  background-color: #fff;
+  padding: 20px 0px;
+  max-width: 67%;
+  width: 100%;
+  display: none;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-jobs .ad__tab-job {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    overflow-y: scroll;
-    height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+  overflow-y: scroll;
+  height: 300px;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-jobs .ad__tab-job::-webkit-scrollbar {
-    background: #fdf09e;
-    width: 15px;
+  background: #fdf09e;
+  width: 25px;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-jobs .ad__tab-job::-webkit-scrollbar-thumb {
-    background: #ec0303;
-    width: 25px;
-    border-radius: 5px;
+  background: #ec0303;
+  width: 25px;
+  border-radius: 5px;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-jobs .ad__tab-job .job__select {
-    background: transparent;
-    border: 0px none;
-    padding: 10px 30px;
-    text-align: left;
-    cursor: pointer;
-    font-size: 20px;
+  background: transparent;
+  border: 0px none;
+  padding: 10px 30px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 20px;
 }
-
 .ad .ad__content .ad__tabs .ad__tab-jobs .ad__tab-job .job__select:hover {
-    background-color: #fede31;
+  background-color: #fede31;
 }
-
-
-/*# sourceMappingURL=main.css.map */
