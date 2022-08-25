@@ -39,18 +39,24 @@ h4 {
   border: 2px solid #ffe53b;
 }
 
+.ad {
+  margin-top: 30px;
+}
 .ad .ad__content .ad__intro {
   color: #665800;
 }
 .ad .ad__content .ad__intro h2 {
   font-size: 30px;
 }
+.ad .ad__content .ad__intro p {
+  margin-top: 0px;
+}
 .ad .ad__content .ad__intro p a {
   text-decoration: none;
   color: #665800;
 }
 .ad .ad__content .ad__tabs {
-  margin-top: 35px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   color: #665800;
@@ -98,7 +104,7 @@ h4 {
 }
 .ad .ad__content .ad__tabs .ad__tab-jobs .ad__tab-job::-webkit-scrollbar {
   background: #fdf09e;
-  max-width: 7px;
+  width: 15px;
 }
 .ad .ad__content .ad__tabs .ad__tab-jobs .ad__tab-job::-webkit-scrollbar-thumb {
   background: #ffde00;
