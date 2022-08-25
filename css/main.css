@@ -51,6 +51,7 @@ h4 {
 }
 .pre__navbar .pre__nav-content .pre__nav-link .pre__nav-item a {
   text-decoration: none;
+  color: #000;
 }
 .pre__navbar .pre__nav-content .pre__nav-link .pre__nav-item .ico {
   width: 18px;
@@ -63,8 +64,24 @@ h4 {
 
 .navbar {
   background-color: #ffdd00;
+  padding: 15px 0px;
 }
 .navbar .nav__content .nav__link {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  align-self: center;
+}
+.navbar .nav__content .nav__link .nav__link-item a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar .nav__content .nav__link .nav__link-item a button {
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 0px none;
+  background-color: #b83539;
+  color: #fff;
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */
