@@ -45,6 +45,10 @@ h4 {
 .ad .ad__content .ad__intro h2 {
   font-size: 30px;
 }
+.ad .ad__content .ad__intro p a {
+  text-decoration: none;
+  color: #665800;
+}
 .ad .ad__content .ad__tabs {
   margin-top: 35px;
   display: flex;
